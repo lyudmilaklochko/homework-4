@@ -1,0 +1,74 @@
+.body {
+  background-color: #000000;
+}
+
+.header {
+  padding: 118px 0 48px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .logo {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.social {
+  max-width: 240px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+.social h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+.social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.social ul li {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto;
+  width: 14px;
+  height: 14px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 250px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  padding: 80px 0 26px;
+}
+
+.footer .element {
+  color: #23667e;
+}
+/*# sourceMappingURL=style.css.map */
